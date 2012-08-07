@@ -6,3 +6,9 @@
 <p>
 	Say <%= link_to "Hello", say_hello_path %>
 </p>
+
+<p>
+	<% for file in @files %>
+		file name is: <%= file %><br />
+	<% end %>
+</p>
